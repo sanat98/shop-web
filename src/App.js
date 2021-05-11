@@ -66,49 +66,46 @@ function App() {
 
 
 <>
+  <BrowserRouter>
 <div className="App">
-<MyMain/>
-
-//   <BrowserRouter>
-// <div className="App">
-// <Switch>
-//   <Route path="/" exact component={MyMain}></Route>
-//   <Route path="/login" exact component={LoginForm}></Route>
-//   <Route path="/admin" exact component={Admin}></Route>
-//   <Route path="/registration" exact component={Registration}></Route>
-//   <Route path="/AddCategory" component={AddCategory}></Route>
-//   <Route path="/AddBrand" component={AddBrand}></Route>
-//   <Route path="/AddProduct" component={AddProduct}></Route>
-//   <Route path="/main" exact component={MyMain}></Route>
-//   <Route path="/DetailPage" exact component={DetailPage}></Route>
-//   <Route path="/AddUser" exact component={AddUser}></Route>
-//   <Route path="/reg" exact component={Registration}></Route>
-//   <Route path="/showUser" exact component={ShowUser}></Route>
-//   <Route path="/userDetail" exact component={UserDetail}></Route>
-//   <Route path="/sallary" exact component={Sallary}></Route>
-//   <Route path="/attendance" exact component={AttendanceCalender}></Route>
-//   <Route path="/advance" exact component={Advance}></Route>
-//   <Route path="/stock" exact component={StockDash}></Route>
-//   <Route path="/offerDetail" exact component={OfferDetail}></Route>
-//   <Route path="/addCustomer" exact component={AddCustomer}></Route>
-//   <Route path="/customerList" exact component={CustomerList}></Route>
-//   <Route path="/orderList" exact component={OrderList}></Route>
-//   <Route path="/orders" exact component={Orders}></Route>
-//   <Route path="/stockAg" exact component={StockDashAg}></Route>
-//   <Route path="/packed" exact component={Packed}></Route>
-//   <Route path="/shipped" exact component={Shipped}></Route>
-//   <Route path="/completed" exact component={Completed}></Route>
-//   <Route path="/customerDetail" exact component={CustomerDetail}></Route>
-//   <Route path="/forgetPass" exact component={ForgetPassShop}></Route>
-//   <Route path="/leaveList" exact component={LeaveList}></Route>
-//   <Route path="/walletShop" exact component={WalletShopKeeper}></Route>
-//   <Route path="/validity" exact component={Validity}></Route>
+<Switch>
+  <Route path="/" exact component={MyMain}></Route>
+  <Route path="/login" exact component={LoginForm}></Route>
+  <Route path="/admin" exact component={Admin}></Route>
+  <Route path="/registration" exact component={Registration}></Route>
+  <Route path="/AddCategory" component={AddCategory}></Route>
+  <Route path="/AddBrand" component={AddBrand}></Route>
+  <Route path="/AddProduct" component={AddProduct}></Route>
+  <Route path="/main" exact component={MyMain}></Route>
+  <Route path="/DetailPage" exact component={DetailPage}></Route>
+  <Route path="/AddUser" exact component={AddUser}></Route>
+  <Route path="/reg" exact component={Registration}></Route>
+  <Route path="/showUser" exact component={ShowUser}></Route>
+  <Route path="/userDetail" exact component={UserDetail}></Route>
+  <Route path="/sallary" exact component={Sallary}></Route>
+  <Route path="/attendance" exact component={AttendanceCalender}></Route>
+  <Route path="/advance" exact component={Advance}></Route>
+  <Route path="/stock" exact component={StockDash}></Route>
+  <Route path="/offerDetail" exact component={OfferDetail}></Route>
+  <Route path="/addCustomer" exact component={AddCustomer}></Route>
+  <Route path="/customerList" exact component={CustomerList}></Route>
+  <Route path="/orderList" exact component={OrderList}></Route>
+  <Route path="/orders" exact component={Orders}></Route>
+  <Route path="/stockAg" exact component={StockDashAg}></Route>
+  <Route path="/packed" exact component={Packed}></Route>
+  <Route path="/shipped" exact component={Shipped}></Route>
+  <Route path="/completed" exact component={Completed}></Route>
+  <Route path="/customerDetail" exact component={CustomerDetail}></Route>
+  <Route path="/forgetPass" exact component={ForgetPassShop}></Route>
+  <Route path="/leaveList" exact component={LeaveList}></Route>
+  <Route path="/walletShop" exact component={WalletShopKeeper}></Route>
+  <Route path="/validity" exact component={Validity}></Route>
 
     
     
-//     </Switch>
-//     </div>
-//     </BrowserRouter> 
+    </Switch>
+    </div>
+    </BrowserRouter> 
     </>
 
 
