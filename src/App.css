@@ -1,0 +1,27 @@
+  {/* {/* <MyNavbar/>
+      <Heading /> */}
+      <BrowserRouter>
+    {/* <div className="App"> */}
+
+    <Switch>
+   
+      {/* <Route path="/" exact component={LoginForm}></Route> */}
+      <Route path="/" exact component={Home}></Route>
+      {/* {//try with class component // another problem :importing all components from the folder
+
+        catData.map(({path,component})=>
+          <Route path={path}  exact component={component} ></Route>
+        )
+     } */}
+      {/* <Route path="/FirstCat"  exact component={FirstCat} ></Route>
+      <Route path="/SecondCat"  exact component={SecondCat} ></Route> */}
+      
+     
+     
+
+{/* 
+  <Route component={Error} ></Route>      Switch allows to switch one by one, if wrong PATH will be called then last component will be renderd */}
+  </Switch>
+    {/* </div> */}
+
+    </BrowserRouter> */}

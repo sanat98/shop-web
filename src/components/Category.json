@@ -1,0 +1,53 @@
+[
+    {
+        "component":"Home",
+        "category":"Home",
+        "path":"/"
+
+    },
+    {
+        "component":"FirstCat",
+        "category":"FirstCat",
+        "path":"/FirstCat",
+        "price":60
+        
+
+    },
+    {
+        "component":"Secondcat",
+        "category":"Secondcat",
+        "path":"/Secondcat",
+        "price":70
+
+    },
+    {
+        "component":"Home",
+        "category":"ThirdCategory",
+        "path":"/ThirdCategory",
+        "price":80
+
+    },
+    {
+        "component":"4th",
+        "category":"4thCategory",
+        "path":"/4thCategory",
+        "price":90
+        
+
+    }
+    ,
+    {
+        "component":"Secondcat",
+        "category":"Secondcat",
+        "path":"/Secondcat",
+        "price":70
+
+    },
+    {
+        "component":"Home",
+        "category":"ThirdCategory",
+        "path":"/ThirdCategory",
+        "price":80
+
+    }
+]

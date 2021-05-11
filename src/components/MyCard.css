@@ -1,0 +1,16 @@
+/* .Cards{
+    width: 18rem;
+    margin:10px 5px 10px 5px;
+}
+.Cards:hover{
+    color:red;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 600px) {
+    .Cards {
+      background-color: lightblue;
+      width: 80%;
+      align-items: center;
+      margin:5px 4% 5px 4%;
+    }
+  } */
