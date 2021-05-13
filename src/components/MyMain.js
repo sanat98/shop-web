@@ -52,7 +52,7 @@ class MyMain extends Component {
         // Typical usage (don't forget to compare props):
         // if (this.props.userID !== prevProps.userID) {
         //   this.fetchData(this.props.userID);
-        axios("http://ec2-65-0-32-190.ap-south-1.compute.amazonaws.com:8082/api/category/getallcategory").then(
+        axios("https://bit.ly/33BhE4u").then(
             res => this.setState({categoryData:res.data}),
             console.log("data is comming")
         )
@@ -61,7 +61,7 @@ class MyMain extends Component {
         });
 
         //
-        axios("http://ec2-65-0-32-190.ap-south-1.compute.amazonaws.com:8082/api/product/getallproduct").then(
+        axios("https://bit.ly/2SDZH2Q").then(
             res => this.setState({productData:res.data}),
             console.log("product data is comming")
         )
